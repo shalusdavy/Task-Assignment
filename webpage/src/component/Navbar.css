@@ -1,0 +1,88 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent; /* Background color with transparency */
+    padding: 8px;
+    gap: 14rem;
+    /* margin-left: 114px; */
+    background: #4473a826;
+    opacity: 76%;
+    .navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  width: 100%; /* Ensure full width */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+  }
+  *{
+    padding: 0;
+    margin: 0;
+  }
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: flex; */
+    /* gap: 81px; */
+    justify-content: space-between;
+  }
+  
+  .nav-links li {
+    border-right: 1px solid #FFFFFF33;
+    ; /* Change color and style as needed */
+    padding-right: 10px; /* Adjust padding as needed */
+    margin-right: 10px; /* Adjust margin as needed */
+  }
+  
+  /* To remove the border from the last <li> element */
+  .nav-links li:last-child {
+    border-right: none;
+  }
+  
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff; /* Adjust text color as needed */
+    font-weight: bold;
+  }
+  
+  .separator {
+    height: 1px;
+    width: 100%;
+    background-color: #fff; /* Adjust color as needed */
+    margin: 20px 0;
+  }
+  
+  .social-icons {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-icons li {
+    margin-left: 10px;
+  }
+  
+  .social-icons li:first-child {
+    margin-left: 0;
+  }
+  
+  .social-icons a {
+    color: #fff; /* Adjust icon color as needed */
+  }
+  
+  /* Adjust icon size using font-size property if needed */
+  .quaorts{
+    padding: 28px 54px;
+    background: #fff;
+    border: none;
+
+  }
+  .nav-qaurts{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+  }
